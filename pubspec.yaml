@@ -43,6 +43,7 @@ dependencies:
   # Networking
   dio: ^5.4.3+1
   json_annotation: ^4.9.0
+  pretty_dio_logger: ^1.4.0
 
   # UI & Responsive
   flutter_screenutil: ^5.9.3
@@ -58,6 +59,9 @@ dependencies:
 
   # Storage
   shared_preferences: ^2.2.3
+
+  # Animation
+  smooth_page_indicator: ^2.0.1
 
 
 dev_dependencies:

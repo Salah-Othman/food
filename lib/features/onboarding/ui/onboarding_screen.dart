@@ -21,19 +21,21 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
 
   List<OnboardingModel> pages = [
     OnboardingModel(
-      image: 'assets/lottie/delivery.json', // ملف Lottie لواحد راكب عجلة
-      title: 'أسرع دليفري في المنيا',
-      desc: 'طلبك هيوصلك من مطعم البرنس سخن وفي أسرع وقت ممكن.',
+      image: 'assets/lottie/Delivery.json', // ملف Lottie لواحد راكب عجلة
+      title: 'Fastest delivery in Minya',
+      desc:
+          'Your order from Al-Prince Restaurant will arrive hot and as quickly as possible',
     ),
     OnboardingModel(
-      image: 'assets/lottie/location.json', // ملف Lottie للوكيشن
-      title: 'حدد مكانك بدقة',
-      desc: 'متقلقش من وصف العنوان، الخريطة هتوصلنا لباب بيتك.',
+      image: 'assets/lottie/Location.json', // ملف Lottie للوكيشن
+      title: 'Locate yourself precisely',
+      desc:
+          'Don\'t worry about the address description, the map will take us right to your doorstep',
     ),
     OnboardingModel(
-      image: 'assets/lottie/payment.json', // ملف Lottie للدفع
-      title: 'ادفع بالطريقة اللي تريحك',
-      desc: 'سواء كاش أو كارت، مأمنين لك كل طرق الدفع.',
+      image: 'assets/lottie/Payment.json', // ملف Lottie للدفع
+      title: 'Pay the way that suits you best',
+      desc: 'Whether cash or card, we secure all payment methods for you.',
     ),
   ];
 
@@ -45,10 +47,10 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
           children: [
             // Skip
             Align(
-              alignment: Alignment.centerLeft,
+              alignment: Alignment.centerRight,
               child: TextButton(
                 onPressed: () => context.pushAndRemoveUntil(Routes.loginScreen),
-                child: const Text('تخطي', style: TextStyle(color: Colors.grey)),
+                child: const Text('Skip', style: TextStyle(color: Colors.grey)),
               ),
             ),
 
@@ -122,4 +124,3 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
     );
   }
 }
-

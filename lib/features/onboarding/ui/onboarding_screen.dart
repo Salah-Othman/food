@@ -4,7 +4,7 @@ import 'package:food/core/routing/routes.dart';
 import 'package:food/core/theme/colors.dart';
 import 'package:food/core/utils/app_styles.dart';
 import 'package:food/core/utils/extensions.dart';
-import 'package:food/features/onboarding/data/models/onboarding_model.dart';
+import 'package:food/features/onboarding/models/onboarding_model.dart';
 import 'package:lottie/lottie.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 
@@ -122,3 +122,4 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
     );
   }
 }
+

@@ -3,7 +3,7 @@ import 'package:food/features/auth/login/login_screen.dart';
 import 'package:food/features/auth/signup/signup_screen.dart';
 import 'package:food/features/cart/cart_screen.dart';
 import 'package:food/features/food_details/food_details_screen.dart';
-import 'package:food/features/home/ui/home_screen.dart';
+import 'package:food/features/home/ui/screen/home_screen.dart';
 import 'package:food/features/location_picker/map_screen.dart';
 import 'package:food/features/onboarding/ui/onboarding_screen.dart';
 import 'routes.dart';
